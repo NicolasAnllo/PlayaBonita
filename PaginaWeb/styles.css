@@ -365,13 +365,14 @@ footer {
     background-color: var(--beach-yellow);
 }
 footer section{
+    display: flex;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 footer section img{
-    width: 150px;
+    width: 100px;
     margin-top: 0px;
     align-self: center;
     border-radius: 20px;
@@ -381,6 +382,7 @@ footer .left ul {
     font-weight: 500;
     line-height: 1.8rem;
     list-style: none;
+    margin-left: 10px;
 }
 .left li{
     margin: 10px 0;
